@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@100;200;400;600;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="logo.png" />"</a>
+        <div class="nav-link" id="navlinks">
+          <i class="fa fa-solid fa-xmark" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <!--------------------------COURSES------------------------------>
+    <section class="course">
+      <h1>Courses we offer</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adlipiscing elit.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            facere atque nobis, magni excepturi deserunt quos libero aliquam
+            reprehenderit beatae dolore amet delectus tempore repellat nulla!
+            Beatae dolorem modi natus dignissimos enim iste et adipisci quasi!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degre</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            facere atque nobis, magni excepturi deserunt quos libero aliquam
+            reprehenderit beatae dolore amet delectus tempore repellat nulla!
+            Beatae dolorem modi natus dignissimos enim iste et adipisci quasi!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            facere atque nobis, magni excepturi deserunt quos libero aliquam
+            reprehenderit beatae dolore amet delectus tempore repellat nulla!
+            Beatae dolorem modi natus dignissimos enim iste et adipisci quasi!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------FACILITIES----------------->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adlipiscing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="library.png" alt="library" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            laborum repellendus consectetur, sequi nobis ipsum dicta placeat
+            ducimus, laudantium dolorum beatae! Excepturi, velit eos. Nihil
+            veritatis et possimus corporis pariatur culpa, neque sunt asperiores
+            vitae necessitatibus.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="basketball.png" alt="basketball img" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            laborum repellendus consectetur, sequi nobis ipsum dicta placeat
+            ducimus, laudantium dolorum beatae! Excepturi, velit eos. Nihil
+            veritatis et possimus corporis pariatur culpa, neque sunt asperiores
+            vitae necessitatibus.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="cafeteria.png" alt="food img" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            laborum repellendus consectetur, sequi nobis ipsum dicta placeat
+            ducimus, laudantium dolorum beatae! Excepturi, velit eos. Nihil
+            veritatis et possimus corporis pariatur culpa, neque sunt asperiores
+            vitae necessitatibus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------FOOTER--------------------------------->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+        eum dolor, pariatur quidem perferendis voluptatibus cum ea consequatur
+        unde harum laboriosam amet. Saepe fugiat facere accusantium voluptas
+        dolorum libero.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-square-facebook" style="color: #055df5"></i>
+        <i class="fa-brands fa-square-twitter" style="color: #1066f9"></i>
+        <i class="fa-brands fa-square-instagram" style="color: #fb2109"></i>
+        <i class="fa-brands fa-linkedin" style="color: #0a60f5"></i>
+      </div>
+    </section>
+
+    <!----------- JAVASCRIPT FOR TOGGLE MENU ------------->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
